@@ -1,0 +1,25 @@
+void main()
+{
+  var title ="marksheet";
+  var name = "Shabbir";
+  print (title);
+  print (name);
+  num math = 25;
+  num phy = 45;
+  num chem = 55;
+  num urdu = 38;
+  num eng = 30;
+  num total = 375;
+  num obt = math+phy+urdu+eng+chem;
+  num percent = obt*100/total;
+  print (percent);
+  if (percent>89){print("A+ Grade");}
+  else if (percent>79){print("A+ Grade");}
+  else if (percent>69){print("A Grade");}
+  else if (percent>59){print("B Grade");}
+  else if (percent>49){print("C Grade");}
+  else if (percent>39){print("D Grade");}
+  else if(percent>36){print("E Grade");}
+  else{print("F grade");}
+
+  }
